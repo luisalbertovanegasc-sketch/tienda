@@ -1,0 +1,71 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    background-color: #0B0E14;
+    color: #F3F4F6;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    min-height: 100vh;
+  }
+
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #0B0E14;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #273043;
+    border-radius: 4px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #D97706;
+  }
+}
+
+/* Gradients and accents for Fénix */
+.bg-fenix-dark {
+  background-color: #0B0E14;
+}
+
+.bg-fenix-surface {
+  background-color: #121824;
+}
+
+.bg-fenix-card {
+  background-color: #182030;
+}
+
+.border-fenix {
+  border-color: #273449;
+}
+
+.text-fenix-gold {
+  color: #F59E0B;
+}
+
+.text-fenix-orange {
+  color: #F97316;
+}
+
+.gradient-fenix {
+  background: linear-gradient(135deg, #F97316 0%, #F59E0B 50%, #D97706 100%);
+}
+
+.gradient-gold {
+  background: linear-gradient(135deg, #FDE68A 0%, #F59E0B 50%, #B45309 100%);
+}
+
+.gradient-dark-card {
+  background: linear-gradient(180deg, rgba(24, 32, 48, 0.95) 0%, rgba(14, 19, 29, 0.98) 100%);
+}
+
+.gold-glow {
+  box-shadow: 0 0 25px -5px rgba(245, 158, 11, 0.25);
+}
+
+.orange-glow {
+  box-shadow: 0 0 25px -5px rgba(249, 115, 22, 0.3);
+}

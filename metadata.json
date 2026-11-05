@@ -1,0 +1,6 @@
+{
+  "name": "Tienda en Línea Fénix",
+  "description": "Plataforma completa de comercio electrónico para administrar productos, inventarios, pedidos, clientes y reportes con asistencia de IA.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
